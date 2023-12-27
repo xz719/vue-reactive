@@ -1,4 +1,7 @@
 // array.js
+import { arrayPrototype, proxyPrototype } from "./public";
+
+// 需要监听的方法
 const reactiveMethods = [
     'push',
     'pop',

@@ -1,4 +1,5 @@
 // demo.js
+import { arrayPrototype, proxyPrototype } from "./public";
 // observer 方法
 function observer (value) {
     if (!isObject(value)) {
